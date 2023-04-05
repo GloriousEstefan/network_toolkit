@@ -1,0 +1,52 @@
+aaa new-model
+aaa authentication login TELNET group tacacs+ local
+aaa authentication login CONSOLE group tacacs+ local
+aaa authentication enable default group tacacs+ enable
+aaa authorization console
+aaa authorization config-commands
+aaa authorization exec default group tacacs+ if-authenticated 
+aaa authorization commands 1 default group tacacs+ if-authenticated 
+aaa authorization commands 15 default group tacacs+ if-authenticated 
+aaa accounting exec default start-stop group tacacs+
+aaa accounting commands 1 default stop-only group tacacs+
+aaa accounting commands 15 default stop-only group tacacs+
+aaa session-id common
+aaa new-model
+aaa authentication login TELNET group tacacs+ local
+aaa authentication login CONSOLE group tacacs+ local
+aaa authentication enable default group tacacs+ enable
+aaa authorization console
+aaa authorization config-commands
+aaa authorization exec default group tacacs+ if-authenticated 
+aaa authorization commands 1 default group tacacs+ if-authenticated 
+aaa authorization commands 15 default group tacacs+ if-authenticated 
+aaa accounting exec default start-stop group tacacs+
+aaa accounting commands 1 default stop-only group tacacs+
+aaa accounting commands 15 default stop-only group tacacs+
+aaa session-id common
+aaa new-model
+aaa authentication login TELNET group tacacs+ local
+aaa authentication login CONSOLE group tacacs+ local
+aaa authentication enable default group tacacs+ enable
+aaa authorization console
+aaa authorization config-commands
+aaa authorization exec default group tacacs+ if-authenticated 
+aaa authorization commands 1 default group tacacs+ if-authenticated 
+aaa authorization commands 15 default group tacacs+ if-authenticated 
+aaa accounting exec default start-stop group tacacs+
+aaa accounting commands 1 default stop-only group tacacs+
+aaa accounting commands 15 default stop-only group tacacs+
+aaa session-id common
+aaa new-model
+aaa authentication login TELNET group tacacs+ local
+aaa authentication login CONSOLE group tacacs+ local
+aaa authentication enable default group tacacs+ enable
+aaa authorization console
+aaa authorization config-commands
+aaa authorization exec default group tacacs+ if-authenticated 
+aaa authorization commands 1 default group tacacs+ if-authenticated 
+aaa authorization commands 15 default group tacacs+ if-authenticated 
+aaa accounting exec default start-stop group tacacs+
+aaa accounting commands 1 default stop-only group tacacs+
+aaa accounting commands 15 default stop-only group tacacs+
+aaa session-id common
